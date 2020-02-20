@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t24="T24WebServicesImpl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <t24:WSFEEUPLOADENQUIRE>
+         <!--Optional:-->
+         <WebRequestCommon>
+            <userName>mmMBOSSAPP</userName>
+            <password>@5Tgb6yhn</password>
+            <!--Optional:-->
+            <company>MY0012101</company>
+         </WebRequestCommon>
+         <!--Optional:-->
+         <FTAUTHNAUType>
+            <!--Zero or more repetitions:-->
+            <enquiryInputCollection>
+               <!--Optional:-->
+               <columnName></columnName>
+               <!--Optional:-->
+               <criteriaValue></criteriaValue>
+               <!--Optional:-->
+               <operand></operand>
+            </enquiryInputCollection>
+         </FTAUTHNAUType>
+      </t24:WSFEEUPLOADENQUIRE>
+   </soapenv:Body>
+</soapenv:Envelope>

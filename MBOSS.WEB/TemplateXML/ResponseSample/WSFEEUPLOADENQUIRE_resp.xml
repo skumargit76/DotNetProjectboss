@@ -1,0 +1,43 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:WSFEEUPLOADENQUIREResponse xmlns:ns2="T24WebServicesImpl">
+         <Status>
+            <successIndicator>Success</successIndicator>
+         </Status>
+         <FTAUTHNAUType>
+            <gFTAUTHNAUDetailType>
+               <mFTAUTHNAUDetailType>
+                  <TransactionRef>FT15223JJRXB</TransactionRef>
+                  <HDR>Unauthorised Funds Transfer</HDR>
+               </mFTAUTHNAUDetailType>
+               <mFTAUTHNAUDetailType>
+                  <TxnType>AC</TxnType>
+                  <DebitAccount>8880009142</DebitAccount>
+                  <DebitCcy>MYR</DebitCcy>
+                  <DebitAmount>15.00</DebitAmount>
+                  <CreditAccount>PL52003</CreditAccount>
+                  <CreditCcy>MYR</CreditCcy>
+                  <CreditAmount>0</CreditAmount>
+                  <Status>INAU</Status>
+                  <Inputter>mmMBOSS.MAK</Inputter>
+               </mFTAUTHNAUDetailType>
+               <mFTAUTHNAUDetailType>
+                  <TransactionRef>FT15223ZM88G</TransactionRef>
+                  <HDR>Unauthorised Funds Transfer</HDR>
+               </mFTAUTHNAUDetailType>
+               <mFTAUTHNAUDetailType>
+                  <TxnType>AC</TxnType>
+                  <DebitAccount>8880009142</DebitAccount>
+                  <DebitCcy>MYR</DebitCcy>
+                  <DebitAmount>15.00</DebitAmount>
+                  <CreditAccount>PL52003</CreditAccount>
+                  <CreditCcy>MYR</CreditCcy>
+                  <CreditAmount>0</CreditAmount>
+                  <Status>INAU</Status>
+                  <Inputter>mmMBOSS.MAK</Inputter>
+               </mFTAUTHNAUDetailType>
+            </gFTAUTHNAUDetailType>
+         </FTAUTHNAUType>
+      </ns2:WSFEEUPLOADENQUIREResponse>
+   </S:Body>
+</S:Envelope>

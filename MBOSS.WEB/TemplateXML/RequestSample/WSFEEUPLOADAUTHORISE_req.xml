@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t24="T24WebServicesImpl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <t24:WSFEEUPLOADAUTHORISE>
+         <!--Optional:-->
+         <WebRequestCommon>
+            <userName>Replaced_value_userNamemmMBOSSAPP</userName>
+            <password>@5Tgb6yhn</password>
+            <!--Optional:-->
+            <company>MY0012101</company>
+         </WebRequestCommon>
+         <!--Optional:-->
+         <FUNDSTRANSFERAUTHType>
+            <!--Optional:-->
+            <transactionId>FT15218D2CJ0</transactionId>
+         </FUNDSTRANSFERAUTHType>
+      </t24:WSFEEUPLOADAUTHORISE>
+   </soapenv:Body>
+</soapenv:Envelope>

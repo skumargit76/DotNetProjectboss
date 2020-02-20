@@ -1,0 +1,9 @@
+C:\Projects\MBOSS\MBOSS.DTO\bin\Debug\Mboss.DataAccessObject.dll
+C:\Projects\MBOSS\MBOSS.DTO\bin\Debug\Mboss.DataAccessObject.pdb
+C:\Projects\MBOSS\MBOSS.DTO\obj\Debug\Mboss.DataAccessObject.dll
+C:\Projects\MBOSS\MBOSS.DTO\obj\Debug\Mboss.DataAccessObject.pdb
+D:\NetProjectExample\MBOSS\MBOSS.DTO\bin\Debug\Mboss.DataAccessObject.dll
+D:\NetProjectExample\MBOSS\MBOSS.DTO\bin\Debug\Mboss.DataAccessObject.pdb
+D:\NetProjectExample\MBOSS\MBOSS.DTO\obj\Debug\Mboss.DataAccessObject.csprojResolveAssemblyReference.cache
+D:\NetProjectExample\MBOSS\MBOSS.DTO\obj\Debug\Mboss.DataAccessObject.dll
+D:\NetProjectExample\MBOSS\MBOSS.DTO\obj\Debug\Mboss.DataAccessObject.pdb

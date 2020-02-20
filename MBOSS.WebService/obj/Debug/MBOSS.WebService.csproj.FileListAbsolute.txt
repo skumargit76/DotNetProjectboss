@@ -1,0 +1,11 @@
+C:\Projects\MBOSS\MBOSS.WebService\bin\MBOSS.WebService.dll
+C:\Projects\MBOSS\MBOSS.WebService\bin\MBOSS.WebService.pdb
+C:\Projects\MBOSS\MBOSS.WebService\bin\Mboss.Common.dll
+C:\Projects\MBOSS\MBOSS.WebService\bin\Mboss.DataAccess.dll
+C:\Projects\MBOSS\MBOSS.WebService\bin\Mboss.DataAccessObject.dll
+C:\Projects\MBOSS\MBOSS.WebService\bin\Mboss.Common.pdb
+C:\Projects\MBOSS\MBOSS.WebService\bin\Mboss.DataAccess.pdb
+C:\Projects\MBOSS\MBOSS.WebService\bin\Mboss.DataAccessObject.pdb
+C:\Projects\MBOSS\MBOSS.WebService\obj\Debug\MBOSS.WebService.csprojResolveAssemblyReference.cache
+C:\Projects\MBOSS\MBOSS.WebService\obj\Debug\MBOSS.WebService.dll
+C:\Projects\MBOSS\MBOSS.WebService\obj\Debug\MBOSS.WebService.pdb

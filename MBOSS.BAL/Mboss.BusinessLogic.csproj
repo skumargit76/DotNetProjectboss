@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CE6F4BE-52B0-4D4C-B8D9-23427CCC7224}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mboss.BusinessLogic</RootNamespace>
+    <AssemblyName>Mboss.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Task\MST_Task_TypeBsl.cs" />
+    <Compile Include="TransactionBusinessProcess\SubmitTransactionbls.cs" />
+    <Compile Include="FileUpload\UploadedFileEnquiryBsl.cs" />
+    <Compile Include="FileUpload\UploadedFileEnquiryDetailsBsl.cs" />
+    <Compile Include="FileUpload\CreateTRNTaskBsl.cs" />
+    <Compile Include="FileUpload\ChargeTypesBsl.cs" />
+    <Compile Include="FileUpload\FileEntryBsl.cs" />
+    <Compile Include="FileUpload\FileExistsBsl.cs" />
+    <Compile Include="FileUpload\FileExtensionsBsl.cs" />
+    <Compile Include="FileUpload\StoreFileDetailsBsl.cs" />
+    <Compile Include="FileUpload\UploadFileDataBsl.cs" />
+    <Compile Include="Login\CheckAccessRightsBsl.cs" />
+    <Compile Include="Login\GenerateMenuBsl.cs" />
+    <Compile Include="Login\LoginBsl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task\MST_Business_ProcessBsl.cs" />
+    <Compile Include="Task\MST_Business_Process_ConfigBsl.cs" />
+    <Compile Include="Task\MST_Business_Process_TargetBsl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MBOSS.COMMON\Mboss.Common.csproj">
+      <Project>{26c4f40d-699a-45f3-bc4a-d55be7a5234f}</Project>
+      <Name>Mboss.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MBOSS.DAL\Mboss.DataAccess.csproj">
+      <Project>{ab297451-ee12-4e36-83a7-7fa5e72d4528}</Project>
+      <Name>Mboss.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MBOSS.DTO\Mboss.DataAccessObject.csproj">
+      <Project>{47d95b22-7284-4397-93d4-2848673d1d34}</Project>
+      <Name>Mboss.DataAccessObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,88 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t24="T24WebServicesImpl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <t24:WSFEEUPLOADINPUT>
+         <!--Optional:-->
+         <WebRequestCommon>
+            <userName>mmMBOSSMAK</userName>
+            <password>@5Tgb6yhn</password>
+            <!--Optional:-->
+            <company></company>
+         </WebRequestCommon>
+         <!--Optional:-->
+         <OfsFunction>
+            <!--Optional:-->
+            <gtsControl></gtsControl>
+            <!--Optional:-->
+            <messageId></messageId>
+            <!--Optional:-->
+            <noOfAuth></noOfAuth>
+            <!--Optional:-->
+            <replace></replace>
+         </OfsFunction>
+         <!--Optional:-->
+         <FUNDSTRANSFERMHCBMYACTRFTHPType id="">
+            <!--Optional:-->
+            <TransactionType>AC</TransactionType>
+            <!--Optional:-->
+            <DebitAccount>8880009142</DebitAccount>
+            <!--Optional:-->
+            <DebitCurrency>MYR</DebitCurrency>
+            <!--Optional:-->
+            <DebitAmount>15</DebitAmount>
+            <!--Optional:-->
+            <DebitValueDate>20150806</DebitValueDate>
+            <!--Optional:-->
+            <DebitNarrative>CHGS CHQ ISSUE</DebitNarrative>
+            <!--Optional:-->
+            <CreditNarrative>CHGS CHQ ISSUE</CreditNarrative>
+            <!--Optional:-->
+            <CreditAccount>PL52003</CreditAccount>
+            <!--Optional:-->
+            <CreditCurrency>MYR</CreditCurrency>
+            <!--Optional:-->
+            <CreditAmount></CreditAmount>
+            <!--Optional:-->
+            <CreditValueDate>20150806</CreditValueDate>
+            <!--Optional:-->
+            <TreasuryRate></TreasuryRate>
+            <!--Optional:-->
+            <gORDERINGCUST g="1">
+               <!--Zero or more repetitions:-->
+               <OrderedBy></OrderedBy>
+            </gORDERINGCUST>
+            <!--Optional:-->
+            <ChequeNumber></ChequeNumber>
+            <!--Optional:-->
+            <gPAYMENTDETAILS g="1">
+               <!--Zero or more repetitions:-->
+               <PaymentDetails>BEING CHGS CHQ ISSUE FVG</PaymentDetails>
+               <PaymentDetails>CUSTOMER NAME 1</PaymentDetails>
+               <PaymentDetails>CUSTOMER NAME 3</PaymentDetails>
+            </gPAYMENTDETAILS>
+            <!--Optional:-->
+            <CustomerSpread></CustomerSpread>
+            <!--Optional:-->
+            <AmountDebited></AmountDebited>
+            <!--Optional:-->
+            <AmountCredited></AmountCredited>
+            <!--Optional:-->
+            <CustomerRate></CustomerRate>
+            <!--Optional:-->
+            <gDELIVERYOUTREF g="1">
+               <!--Zero or more repetitions:-->
+               <DeliveryReference></DeliveryReference>
+            </gDELIVERYOUTREF>
+            <!--Optional:-->
+            <RoundingType></RoundingType>
+            <!--Optional:-->
+            <gSIGNATORY g="1">
+               <!--Zero or more repetitions:-->
+               <Signatory></Signatory>
+            </gSIGNATORY>
+            <!--Optional:-->
+            <BENCOUNTRY></BENCOUNTRY>
+         </FUNDSTRANSFERMHCBMYACTRFTHPType>
+      </t24:WSFEEUPLOADINPUT>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mboss.master.cs" Inherits="Mboss.Web.Mboss" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="headerContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="mainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <footer>
+        <asp:ContentPlaceHolder ID="footerContent" runat="server">
+            <footer style="background-color:white;">
+		        <div align="center"><img src="Images/footer.png" alt=""></div>
+		        <div align="center"><img src="Images/copyright.gif" alt=""></div>
+            </footer>
+        </asp:ContentPlaceHolder>
+    </footer>
+</body>
+</html>
